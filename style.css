@@ -1,0 +1,37 @@
+body {
+    background-color: #f5dbeb; /* Light pink background */
+    
+        /* ... other styles ... */
+        font-family: 'Pixelify Sans', sans-serif; /* Use Pixelify Sans */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+     color: #ff69b4; /* Pink title color */
+    /* ... other styles ... */
+    font-family: 'Pixelify Sans', sans-serif; /* Use Pixelify Sans */
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
